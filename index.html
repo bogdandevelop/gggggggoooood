@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vgaraje</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+
+
+
+    <header>
+        <div class="container">
+            <div class="heading clearfix">
+            <img src="img/logo1.png" alt="Golden" class="logo" >
+</div>
+</div>
+
+
+        </header>
+
+
+        <div class="works clearfix">
+             
+            <div class="works_item">
+                
+                    
+                         <p> <a ><img src="img/news.png"  class="news"  ></a><a href="#"  style="color: black; " ><a style="font-size: 25px;">Главная</a> </a></p>
+
+                         <p> <a><img src="img/news2.png"  class="news2"  ></a><a href="#"  style="color: black; " ><a style="font-size: 25px;">Новости </a></a></p>
+                      
+                         <p> <a><img src="img/chat.png"  class="chat"  ></a><a href="#"  style="color: black; " ><a style="font-size: 25px;">Чат </a></a></p>
+                
+            </div>
+         
+                         <div class="works_item2">
+                
+                            <div class="works_item3">
+                            <p> <a><img src="img/foto1.jpg" width="60%"  ></a></p>
+                           <hr>
+
+                           <img src="img/gayka.png" alt="Golden" id="one" >
+   
+                           понравилось: <a id="demo"></a>
+
+
+                            </div>
+                         </div>
+       </div>
+     
+
+
+
+
+
+
+
+       <script>
+
+
+        var block = document.getElementById('one');
+        
+        block.onclick = function(){
+        
+            this.style.background = 'red';
+            
+        if( this.style.background = 'red'){
+            x=+1;
+            document.getElementById("demo").innerHTML = x;  
+            }
+        }
+        
+        block.ondblclick = function(){
+        
+            this.style.background = 'white';
+            
+        
+            if( this.style.background = 'white'){
+                x=x-1;
+                document.getElementById("demo").innerHTML = x;  
+                }
+            }
+               
+        
+        
+        </script>
+
+
+
+
+
+
+        </body>
+        </html>
